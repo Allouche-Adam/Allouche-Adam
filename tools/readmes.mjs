@@ -41,6 +41,8 @@ Proof of effort: a timelapse screen recorder + focus timer for Windows. Ends eve
 <tr>
 <td width="50%" valign="top">
 
+<img src="${base}assets/icons/meettogether.png" width="40" align="left" alt="">
+
 **MeetTogether** · *coming to the Chrome Web Store*<br>
 Video chat with strangers on ome.tv & umingle, together with up to 5 friends on one shared camera. Friends join from a link.
 
@@ -50,19 +52,21 @@ Video chat with strangers on ome.tv & umingle, together with up to 5 friends on 
 **[Pair Narrator](https://github.com/Allouche-Adam/pair-narrator)** 🎙️<br>
 A Claude Code plugin that talks you through what the AI is building, and why. Out loud, if you want. Made for learners.
 
-**[Épure](https://github.com/Allouche-Adam/Epure)** · [live](https://epure-cleaner.vercel.app)<br>
-Cleans your browser's password export (duplicates, weak and reused passwords) without sending it anywhere.
-
-**[Buildune](https://github.com/Allouche-Adam/Buildune)**<br>
-A personal brand kit generator: LinkedIn and GitHub banners, palette, fonts and resume copy.
-
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
+
+<img src="${base}assets/icons/epure.svg" width="40" align="left" alt="">
+
+**[Épure](https://github.com/Allouche-Adam/Epure)** · [live](https://epure-cleaner.vercel.app)<br>
+Cleans your browser's password export (duplicates, weak and reused passwords) without sending it anywhere.
+
+</td>
+<td width="50%" valign="top">
 
 **[ASCII Lab](https://ascii-lab-adam.vercel.app)** · [code](https://github.com/Allouche-Adam/ascii-lab)<br>
-Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Free, and it runs in your browser: nothing is uploaded. Save as PNG, animated SVG or video.
+Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Free, runs in your browser. Save as PNG, animated SVG or video.
 
 </td>
 </tr>
@@ -96,7 +100,7 @@ const WORLDS = {
   ocean: { emoji: "🌊", alt: "the ocean", d1: "rolling waves with a fish", d2: "glowing jellyfish" },
   spirit: { emoji: "🔮", alt: "flowing colors", d1: "flowing colors", d2: "a constellation drawing itself" },
   meadow: { emoji: "🌳", alt: "a sunny meadow", d1: "butterflies over flowers", d2: "sunflowers by a fence" },
-  anime: { emoji: "🌸", alt: "an anime sunset", d1: "a city at sunset", d2: "a train crossing a bridge at dusk" },
+  midnight: { emoji: "🌙", alt: "a purple midnight city", d1: "a city at dusk", d2: "a train crossing a bridge at dusk" },
 };
 const nameAlt = "Adam Allouche, in animated ASCII art: dev, data, creative code, open to work-study 2027";
 const scene = (k, part, alt, base) => img(`${k}-${part}.svg`, alt, base);
@@ -118,13 +122,13 @@ export function build(base = "../") {
   const out = {};
   for (const [k, w] of Object.entries(WORLDS)) {
     out[k] = page(base, [scene(k, "header", `${nameAlt}, over ${w.alt}`, base), INTRO, scene(k, "div1", w.d1, base), PROJECTS(base),
-      scene(k, "div2", w.d2, base), STACK, scene(k, "footer", `${w.alt}, animated`, base), MAKE_YOUR_OWN(base), CREDIT(base)]);
+      scene(k, "div2", w.d2, base), STACK, scene(k, "footer", `${w.alt}, animated`, base), PICK(base), MAKE_YOUR_OWN(base), CREDIT(base)]);
   }
   // all four worlds in one scroll: sea -> colors -> city sunset -> meadow, then pick a world
   out.phases = page(base, [
     scene("ocean", "header", `${nameAlt}, over the ocean`, base), INTRO,
     scene("spirit", "div1", "flowing colors", base), PROJECTS(base),
-    scene("anime", "div1", "an anime sunset over the city", base), STACK,
+    scene("midnight", "div1", "a purple dusk over the city", base), STACK,
     scene("meadow", "footer", "a meadow with a tree whose apple falls", base), PICK(base), MAKE_YOUR_OWN(base), CREDIT(base),
   ]);
   return out;
@@ -138,7 +142,7 @@ if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`) {
     console.log(`  previews/${k}.md`);
   }
   // The real profile page: the version picked (change MAIN to switch worlds).
-  const MAIN = "phases";
+  const MAIN = "ocean";
   fs.writeFileSync(path.join(import.meta.dirname, "..", "README.md"), build("")[MAIN]);
   console.log(`  README.md = ${MAIN}`);
 }

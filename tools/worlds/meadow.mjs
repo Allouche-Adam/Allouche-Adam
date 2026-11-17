@@ -49,7 +49,9 @@ export function header() {
     css += `@keyframes bd${i}{from{transform:translate(-30px,${y.toFixed(0)}px)}to{transform:translate(${W + 30}px,${(y - 30).toFixed(0)}px)}}`;
     birds += `<g style="animation:bd${i} ${dur.toFixed(1)}s linear infinite;animation-delay:-${(i * 4.1).toFixed(1)}s"><text class="w0">v</text><text class="w1">^</text></g>`;
   }
-  const nm = asciiName({ text: NAME, cx: W / 2, baseline: 186, size: 140, maxW: 800, color: "#0E3B1C", ramp: " :+#%@@@@@" });
+  // Smaller cells than the other worlds = more characters per letter = smoother curves.
+  // Dark letters on a light sky need dense characters, with a few light ones on the edges.
+  const nm = asciiName({ text: NAME, cx: W / 2, baseline: 186, size: 140, maxW: 800, color: "#0E3B1C", cw: 3.4, lh: 5.8, ramp: " .:+*#%@@@" });
   return svgDoc({
     w: W, h: H, label: `${NAME}: ${TAGLINE}. A sunny sky with drifting clouds and birds.`,
     defs: `<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4E9EEB"/><stop offset=".7" stop-color="#BFE3FF"/><stop offset="1" stop-color="#E9F7E6"/></linearGradient>

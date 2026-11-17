@@ -11,7 +11,7 @@ in or around Toulouse.
 
 <a href="https://chromewebstore.google.com/detail/musicmax/ofhnlejlgcdpbbcbchlgeoeiljaageij"><img src="https://img.shields.io/chrome-web-store/users/ofhnlejlgcdpbbcbchlgeoeiljaageij?style=flat-square&label=MusicMax%20users&color=1DB954" alt="MusicMax users"></a>&nbsp;<a href="https://buymeacoffee.com/thock"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-thock-FFC93C?style=flat-square&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
 
-<img src="assets/spirit-div1.svg" alt="flowing colors" width="100%">
+<img src="assets/ocean-div1.svg" alt="rolling waves with a fish" width="100%">
 
 ### what I've built
 
@@ -37,6 +37,8 @@ Proof of effort: a timelapse screen recorder + focus timer for Windows. Ends eve
 <tr>
 <td width="50%" valign="top">
 
+<img src="assets/icons/meettogether.png" width="40" align="left" alt="">
+
 **MeetTogether** · *coming to the Chrome Web Store*<br>
 Video chat with strangers on ome.tv & umingle, together with up to 5 friends on one shared camera. Friends join from a link.
 
@@ -46,25 +48,27 @@ Video chat with strangers on ome.tv & umingle, together with up to 5 friends on 
 **[Pair Narrator](https://github.com/Allouche-Adam/pair-narrator)** 🎙️<br>
 A Claude Code plugin that talks you through what the AI is building, and why. Out loud, if you want. Made for learners.
 
-**[Épure](https://github.com/Allouche-Adam/Epure)** · [live](https://epure-cleaner.vercel.app)<br>
-Cleans your browser's password export (duplicates, weak and reused passwords) without sending it anywhere.
-
-**[Buildune](https://github.com/Allouche-Adam/Buildune)**<br>
-A personal brand kit generator: LinkedIn and GitHub banners, palette, fonts and resume copy.
-
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
+
+<img src="assets/icons/epure.svg" width="40" align="left" alt="">
+
+**[Épure](https://github.com/Allouche-Adam/Epure)** · [live](https://epure-cleaner.vercel.app)<br>
+Cleans your browser's password export (duplicates, weak and reused passwords) without sending it anywhere.
+
+</td>
+<td width="50%" valign="top">
 
 **[ASCII Lab](https://ascii-lab-adam.vercel.app)** · [code](https://github.com/Allouche-Adam/ascii-lab)<br>
-Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Free, and it runs in your browser: nothing is uploaded. Save as PNG, animated SVG or video.
+Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Free, runs in your browser. Save as PNG, animated SVG or video.
 
 </td>
 </tr>
 </table>
 
-<img src="assets/anime-div1.svg" alt="an anime sunset over the city" width="100%">
+<img src="assets/ocean-div2.svg" alt="glowing jellyfish" width="100%">
 
 ### what I use
 
@@ -78,7 +82,7 @@ Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Fre
 - 🎨 next: creative coding, the art side of computer science
 - 📚 writing down every decision, so I understand my own code
 
-<img src="assets/meadow-footer.svg" alt="a meadow with a tree whose apple falls" width="100%">
+<img src="assets/ocean-footer.svg" alt="the ocean, animated" width="100%">
 
 ### pick a world
 
@@ -106,12 +110,12 @@ Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Fre
 <img src="assets/meadow-footer.svg" alt="a sunny meadow, footer" width="100%">
 
 </details>
-<details><summary><b>🌸 anime</b></summary>
+<details><summary><b>🌙 midnight</b></summary>
 
-<img src="assets/anime-header.svg" alt="Adam Allouche, in animated ASCII art: dev, data, creative code, open to work-study 2027, over an anime sunset" width="100%">
-<img src="assets/anime-div1.svg" alt="a city at sunset" width="100%">
-<img src="assets/anime-div2.svg" alt="a train crossing a bridge at dusk" width="100%">
-<img src="assets/anime-footer.svg" alt="an anime sunset, footer" width="100%">
+<img src="assets/midnight-header.svg" alt="Adam Allouche, in animated ASCII art: dev, data, creative code, open to work-study 2027, over a purple midnight city" width="100%">
+<img src="assets/midnight-div1.svg" alt="a city at dusk" width="100%">
+<img src="assets/midnight-div2.svg" alt="a train crossing a bridge at dusk" width="100%">
+<img src="assets/midnight-footer.svg" alt="a purple midnight city, footer" width="100%">
 
 </details>
 

@@ -1,4 +1,4 @@
-// World 4: anime atmosphere (no characters, just the mood): a sunset with a striped
+// World 4: midnight. A purple dusk with a striped
 // retro sun, a city skyline with twinkling windows, power lines and falling cherry
 // petals; the footer is the same city at night under a crescent moon.
 import { hash, mix, svgDoc, asciiName, waveCss, tagline, shapesAscii, MONO, NAME, TAGLINE } from "../lib.mjs";
@@ -70,7 +70,7 @@ export function header({ withName = true } = {}) {
   const nm = withName && asciiName({ text: NAME, cx: W / 2, baseline: 150, size: 140, maxW: 800, color: "#FFFFFF" });
   const calm = nm ? `<ellipse cx="${W / 2}" cy="${150 - nm.size * 0.3}" rx="${(nm.box.x2 - nm.box.x1) / 2 + 80}" ry="${nm.size * 0.7}" fill="url(#calm)"/>` : "";
   return svgDoc({
-    w: W, h: H, label: withName ? `${NAME}: ${TAGLINE}. An anime-style sunset over a city with falling cherry petals.` : "Anime sunset over a city, with power lines and falling cherry petals",
+    w: W, h: H, label: withName ? `${NAME}: ${TAGLINE}. A purple dusk over a city with falling cherry petals.` : "A purple dusk over a city, with power lines and falling cherry petals",
     defs: `<linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B1040"/><stop offset=".35" stop-color="#5B2A86"/><stop offset=".65" stop-color="#D9468F"/><stop offset=".85" stop-color="#FF8A5B"/><stop offset="1" stop-color="#FFC46B"/></linearGradient>
 <linearGradient id="sungrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE27A"/><stop offset="1" stop-color="#FF5FA2"/></linearGradient>
 <radialGradient id="calm"><stop offset="0" stop-color="#2A0F45" stop-opacity=".6"/><stop offset="1" stop-color="#2A0F45" stop-opacity="0"/></radialGradient>

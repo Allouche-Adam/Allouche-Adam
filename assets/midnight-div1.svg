@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="Anime sunset over a city, with power lines and falling cherry petals">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="A purple dusk over a city, with power lines and falling cherry petals">
 <defs><clipPath id="frame"><rect width="900" height="150" rx="18"/></clipPath><linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B1040"/><stop offset=".35" stop-color="#5B2A86"/><stop offset=".65" stop-color="#D9468F"/><stop offset=".85" stop-color="#FF8A5B"/><stop offset="1" stop-color="#FFC46B"/></linearGradient>
 <linearGradient id="sungrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE27A"/><stop offset="1" stop-color="#FF5FA2"/></linearGradient>
 <radialGradient id="calm"><stop offset="0" stop-color="#2A0F45" stop-opacity=".6"/><stop offset="1" stop-color="#2A0F45" stop-opacity="0"/></radialGradient>
