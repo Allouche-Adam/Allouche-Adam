@@ -1,0 +1,12 @@
+{
+  "name": "allouche-adam-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "readmes": "node tools/readmes.mjs"
+  },
+  "devDependencies": {
+    "opentype.js": "1.3.4"
+  }
+}
