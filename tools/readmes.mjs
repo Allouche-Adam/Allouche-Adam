@@ -49,7 +49,9 @@ Video chat with strangers on ome.tv & umingle, together with up to 5 friends on 
 </td>
 <td width="50%" valign="top">
 
-**[Pair Narrator](https://github.com/Allouche-Adam/pair-narrator)** 🎙️<br>
+<img src="${base}assets/icons/pair-narrator.png" width="40" align="left" alt="">
+
+**[Pair Narrator](https://github.com/Allouche-Adam/pair-narrator)**<br>
 A Claude Code plugin that talks you through what the AI is building, and why. Out loud, if you want. Made for learners.
 
 </td>
@@ -57,13 +59,15 @@ A Claude Code plugin that talks you through what the AI is building, and why. Ou
 <tr>
 <td width="50%" valign="top">
 
-<img src="${base}assets/icons/epure.svg" width="40" align="left" alt="">
+<img src="${base}assets/icons/epure.png" width="40" align="left" alt="">
 
 **[Épure](https://github.com/Allouche-Adam/Epure)** · [live](https://epure-cleaner.vercel.app)<br>
 Cleans your browser's password export (duplicates, weak and reused passwords) without sending it anywhere.
 
 </td>
 <td width="50%" valign="top">
+
+<img src="${base}assets/icons/ascii-lab.png" width="40" align="left" alt="">
 
 **[ASCII Lab](https://ascii-lab-adam.vercel.app)** · [code](https://github.com/Allouche-Adam/ascii-lab)<br>
 Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Free, runs in your browser. Save as PNG, animated SVG or video.
