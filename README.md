@@ -3,8 +3,8 @@
 ### hey, I'm Adam 👋
 
 Second-year computer science student (BUT Informatique, data track) at IUT Toulouse.
-I build apps with data at their core, ship small tools that people actually use, and I'm slowly
-getting into **creative code**, where engineering meets art. Every banner on this page is made of code.
+I build things for **real users**, especially for a niche of people who think like me.
+I want to truly understand what I build and get good at it: someone who can take on hard problems that keep the brain busy.
 
 🎯 **Open to a work-study position (alternance)** in development, data or databases from **February 2027**,
 in or around Toulouse.
@@ -83,7 +83,6 @@ Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Fre
 ### right now
 
 - 🧪 building **SkillSwiper**: helps anyone (not just developers) find and install AI tools through short videos and plain-language search
-- 🎨 next: creative coding, the art side of computer science
 - 📚 writing down every decision, so I understand my own code
 
 <img src="assets/ocean-footer.svg" alt="the ocean, animated" width="100%">

@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-18
+- New intro: building for real users and a niche of like-minded people, and mastering hard problems, instead of "getting into creative code / art". Removed the "next: creative coding" line from "right now".
+
 ## 2026-11-17 (later)
 - The main README is now the **ocean** world (with "pick a world" at the bottom of every version); the 4-phase page is kept as a preview only.
 - The "anime" world is renamed **midnight** (files, code and labels).
