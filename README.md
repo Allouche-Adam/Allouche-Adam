@@ -39,7 +39,7 @@ Proof of effort: a timelapse screen recorder + focus timer for Windows. Ends eve
 
 <img src="assets/icons/meettogether.png" width="40" align="left" alt="">
 
-**MeetTogether** · *coming to the Chrome Web Store*<br>
+**[MeetTogether](https://chromewebstore.google.com/detail/dclibfnmfmaiholhdilomkgdadganfmo)** · [website](https://meettogether.vercel.app)<br>
 Video chat with strangers on ome.tv & umingle, together with up to 5 friends on one shared camera. Friends join from a link.
 
 </td>

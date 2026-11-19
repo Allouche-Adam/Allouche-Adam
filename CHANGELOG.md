@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-19
+- MeetTogether is live: its project card links to the Chrome Web Store and the website instead of saying "coming to the Chrome Web Store".
+
 ## 2026-11-18
 - New intro: building for real users and a niche of like-minded people, and mastering hard problems, instead of "getting into creative code / art". Removed the "next: creative coding" line from "right now".
 
