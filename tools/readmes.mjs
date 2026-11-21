@@ -149,7 +149,7 @@ if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`) {
     console.log(`  previews/${k}.md`);
   }
   // The real profile page: the version picked (change MAIN to switch worlds).
-  const MAIN = "ocean";
+  const MAIN = "meadow";
   fs.writeFileSync(path.join(import.meta.dirname, "..", "README.md"), build("")[MAIN]);
   console.log(`  README.md = ${MAIN}`);
 }

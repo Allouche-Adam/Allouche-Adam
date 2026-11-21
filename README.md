@@ -1,4 +1,4 @@
-<img src="assets/ocean-header.svg" alt="Adam Allouche, in animated ASCII art: dev, data, creative code, open to work-study 2027, over the ocean" width="100%">
+<img src="assets/meadow-header.svg" alt="Adam Allouche, in animated ASCII art: dev, data, creative code, open to work-study 2027, over a sunny meadow" width="100%">
 
 <div align="center">
 
@@ -15,7 +15,7 @@ in or around Toulouse.
 
 </div>
 
-<img src="assets/ocean-div1.svg" alt="rolling waves with a fish" width="100%">
+<img src="assets/meadow-div1.svg" alt="butterflies over flowers" width="100%">
 
 ### what I've built
 
@@ -76,7 +76,7 @@ Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Fre
 </tr>
 </table>
 
-<img src="assets/ocean-div2.svg" alt="glowing jellyfish" width="100%">
+<img src="assets/meadow-div2.svg" alt="sunflowers by a fence" width="100%">
 
 ### what I use
 
@@ -89,7 +89,7 @@ Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Fre
 - 🧪 building **SkillSwiper**: helps anyone (not just developers) find and install AI tools through short videos and plain-language search
 - 📚 writing down every decision, so I understand my own code
 
-<img src="assets/ocean-footer.svg" alt="the ocean, animated" width="100%">
+<img src="assets/meadow-footer.svg" alt="a sunny meadow, animated" width="100%">
 
 ### pick a world
 

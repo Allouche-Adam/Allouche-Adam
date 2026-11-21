@@ -1,5 +1,9 @@
 # Decisions
 
+## 2026-11-21 — Meadow is the main README
+- **Chosen:** README.md = the meadow world (replaces ocean, chosen 2026-11-17).
+- **Why:** the user's new pick. **Rejected:** ocean, still one click away under "pick a world". **Affects:** `MAIN` in `tools/readmes.mjs`.
+
 ## 2026-11-17 — Ocean is the main README
 - **Chosen:** README.md = the ocean world; every version ends with "pick a world" (collapsible sections) so the others stay one click away.
 - **Why:** the user's pick after seeing all versions. **Affects:** `MAIN` in `tools/readmes.mjs`.
