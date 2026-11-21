@@ -1,5 +1,7 @@
 <img src="assets/ocean-header.svg" alt="Adam Allouche, in animated ASCII art: dev, data, creative code, open to work-study 2027, over the ocean" width="100%">
 
+<div align="center">
+
 ### hey, I'm Adam 👋
 
 Second-year computer science student (BUT Informatique, data track) at IUT Toulouse.
@@ -9,7 +11,9 @@ I want to truly understand what I build and get good at it: someone who can take
 🎯 **Open to a work-study position (alternance)** in development, data or databases from **February 2027**,
 in or around Toulouse.
 
-<a href="https://chromewebstore.google.com/detail/musicmax/ofhnlejlgcdpbbcbchlgeoeiljaageij"><img src="https://img.shields.io/chrome-web-store/users/ofhnlejlgcdpbbcbchlgeoeiljaageij?style=flat-square&label=MusicMax%20users&color=1DB954" alt="MusicMax users"></a>&nbsp;<a href="https://buymeacoffee.com/thock"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-thock-FFC93C?style=flat-square&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
+<a href="https://chromewebstore.google.com/detail/musicmax/ofhnlejlgcdpbbcbchlgeoeiljaageij"><img src="https://img.shields.io/chrome-web-store/users/ofhnlejlgcdpbbcbchlgeoeiljaageij?style=flat-square&label=MusicMax%20users&color=1DB954" alt="MusicMax users"></a>&nbsp;<a href="https://chromewebstore.google.com/detail/dclibfnmfmaiholhdilomkgdadganfmo"><img src="https://img.shields.io/badge/MeetTogether-Chrome%20Web%20Store-5CC8FF?style=flat-square&logo=googlechrome&logoColor=white" alt="MeetTogether on the Chrome Web Store"></a>&nbsp;<a href="https://www.linkedin.com/in/adam-allouche/"><img src="https://img.shields.io/badge/LinkedIn-adam--allouche-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;<a href="https://buymeacoffee.com/thock"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-thock-FFC93C?style=flat-square&logo=buymeacoffee&logoColor=black" alt="Buy me a coffee"></a>
+
+</div>
 
 <img src="assets/ocean-div1.svg" alt="rolling waves with a fish" width="100%">
 

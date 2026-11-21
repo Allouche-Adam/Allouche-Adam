@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-21
+- Intro is centered. New badges: MeetTogether on the Chrome Web Store and LinkedIn (no MeetTogether user count: its mature listing hides the number from the badge service).
+
 ## 2026-11-19
 - MeetTogether is live: its project card links to the Chrome Web Store and the website instead of saying "coming to the Chrome Web Store".
 
