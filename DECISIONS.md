@@ -1,5 +1,9 @@
 # Decisions
 
+## 2026-11-23 — MeetTogether user count is typed in by hand
+- **Chosen:** a static shields.io badge (`MeetTogether users-5`), the same style as the live MusicMax one. Update the number by hand in `tools/readmes.mjs` and `README.md`.
+- **Why:** the store hides 18+ listings from anyone who isn't logged in (it serves an empty page), so shields.io's live `chrome-web-store/users` badge only says "not found". **Rejected:** the live badge (can't work); a hand-made SVG file (another file to keep in sync, and it doesn't match the other badges); scraping while logged in (would mean storing a Google login in CI).
+
 ## 2026-11-21 — Meadow is the main README
 - **Chosen:** README.md = the meadow world (replaces ocean, chosen 2026-11-17).
 - **Why:** the user's new pick. **Rejected:** ocean, still one click away under "pick a world". **Affects:** `MAIN` in `tools/readmes.mjs`.

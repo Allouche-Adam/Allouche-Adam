@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-11-23
+- The MeetTogether badge now shows its user count ("MeetTogether users 5"), typed in by hand, in place of the plain "Chrome Web Store" badge.
+
 ## 2026-11-21
 - The main README is now the **meadow** world (ocean stays under "pick a world").
 - Intro is centered. New badges: MeetTogether on the Chrome Web Store and LinkedIn (no MeetTogether user count: its mature listing hides the number from the badge service).
