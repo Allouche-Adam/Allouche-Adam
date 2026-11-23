@@ -15,7 +15,7 @@ in or around Toulouse.
 
 </div>
 
-<img src="assets/meadow-div1.svg" alt="butterflies over flowers" width="100%">
+
 
 ### what I've built
 
@@ -76,7 +76,7 @@ Turn pictures, GIFs, videos or your webcam into colored, animated ASCII art. Fre
 </tr>
 </table>
 
-<img src="assets/meadow-div2.svg" alt="sunflowers by a fence" width="100%">
+<img src="assets/meadow-div1.svg" alt="butterflies over flowers" width="100%">
 
 ### what I use
 
