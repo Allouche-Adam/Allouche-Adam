@@ -1,8 +1,5 @@
 # Changelog
 
-## 2026-11-24
-- The MusicMax users badge comes from badgen.net: shields.io's Chrome Web Store badges time out, so it showed as a broken image.
-
 ## 2026-11-23
 - The MeetTogether badge now shows its user count ("MeetTogether users 5"), typed in by hand, in place of the plain "Chrome Web Store" badge.
 

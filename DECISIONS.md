@@ -1,10 +1,5 @@
 # Decisions
 
-## 2026-11-24 — MusicMax user count from badgen.net
-- **Chosen:** the live MusicMax badge comes from badgen.net (`chrome-web-store/users`), not shields.io.
-- **Why:** shields.io's Chrome Web Store badges started timing out (HTTP 408) for every visitor, so GitHub showed a broken image; badgen.net reads the same store page fine. **Rejected:** a typed-in number like MeetTogether's (the store page is public, so the live count works); waiting for shields.io to recover.
-- **Affects:** the badge looks slightly different from the shields.io ones next to it.
-
 ## 2026-11-23 — MeetTogether user count is typed in by hand
 - **Chosen:** a static shields.io badge (`MeetTogether users-5`), the same style as the live MusicMax one. Update the number by hand in `tools/readmes.mjs` and `README.md`.
 - **Why:** the store hides 18+ listings from anyone who isn't logged in (it serves an empty page), so shields.io's live `chrome-web-store/users` badge only says "not found". **Rejected:** the live badge (can't work); a hand-made SVG file (another file to keep in sync, and it doesn't match the other badges); scraping while logged in (would mean storing a Google login in CI).
